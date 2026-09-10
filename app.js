@@ -1,0 +1,399 @@
+let _0x5bf;
+const firebaseConfig = {
+  '\u0061\u0070\u0069\u004B\u0065\u0079': "\u0041\u0049\u007A\u0061\u0053\u0079\u0044\u0039\u0057\u0041\u0052\u0037\u0052\u0052\u0030\u0073\u0070\u0078\u0033\u0034\u0079\u004B\u005A\u0033\u004C\u0066\u0052\u006F\u0071\u0045\u0047\u006D\u0053\u0072\u0044\u006D\u0034\u0071\u0055",
+  "authDomain": "\u0072\u0074\u006C\u002D\u0063\u0068\u0065\u0063\u006B\u002E\u0066\u0069\u0072\u0065\u0062\u0061\u0073\u0065\u0061\u0070\u0070\u002E\u0063\u006F\u006D",
+  '\u0064\u0061\u0074\u0061\u0062\u0061\u0073\u0065\u0055\u0052\u004C': "\u0068\u0074\u0074\u0070\u0073\u003A\u002F\u002F\u0072\u0074\u006C\u002D\u0063\u0068\u0065\u0063\u006B\u002D\u0064\u0065\u0066\u0061\u0075\u006C\u0074\u002D\u0072\u0074\u0064\u0062\u002E\u0061\u0073\u0069\u0061\u002D\u0073\u006F\u0075\u0074\u0068\u0065\u0061\u0073\u0074\u0031\u002E\u0066\u0069\u0072\u0065\u0062\u0061\u0073\u0065\u0064\u0061\u0074\u0061\u0062\u0061\u0073\u0065\u002E\u0061\u0070\u0070",
+  '\u0070\u0072\u006F\u006A\u0065\u0063\u0074\u0049\u0064': "\u0072\u0074\u006C\u002D\u0063\u0068\u0065\u0063\u006B",
+  '\u0073\u0074\u006F\u0072\u0061\u0067\u0065\u0042\u0075\u0063\u006B\u0065\u0074': "rtl-check.firebasestorage.app",
+  '\u006D\u0065\u0073\u0073\u0061\u0067\u0069\u006E\u0067\u0053\u0065\u006E\u0064\u0065\u0072\u0049\u0064': "\u0035\u0038\u0039\u0037\u0033\u0032\u0039\u0036\u0033\u0032\u0036\u0036",
+  "appId": "1:589732963266:web:99ea0c678f936b34acec5b",
+  "measurementId": "\u0047\u002D\u0034\u0034\u0052\u0056\u0044\u0059\u0059\u0053\u0050\u004B"
+};
+_0x5bf = (770297 ^ 770296) + (988349 ^ 988350);
+firebase['\u0069\u006E\u0069\u0074\u0069\u0061\u006C\u0069\u007A\u0065\u0041\u0070\u0070'](firebaseConfig);
+var _0x341g = (179113 ^ 179115) + (811310 ^ 811308);
+const db = firebase['\u0064\u0061\u0074\u0061\u0062\u0061\u0073\u0065']();
+_0x341g = "afijhb";
+let _0xdb9c;
+const AP_FALLBACK_IP = "\u0031\u0039\u0032\u002E\u0031\u0036\u0038\u002E\u0034\u002E\u0031";
+_0xdb9c = (246329 ^ 246320) + (701353 ^ 701357);
+function showToast(msg, type = "success", durationMs = 577220 ^ 574312) {
+  const _0x06df = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0074\u006F\u0061\u0073\u0074\u002D\u0063\u006F\u006E\u0074\u0061\u0069\u006E\u0065\u0072");
+  if (!_0x06df) return;
+  const _0xb47b = {
+    "success": "\u2705",
+    "error": "\u274C",
+    '\u0077\u0061\u0072\u006E\u0069\u006E\u0067': "⚠️",
+    '\u0069\u006E\u0066\u006F': "ℹ️"
+  };
+  var _0x5fc6a = (368952 ^ 368944) + (115569 ^ 115575);
+  const _0x3c2g = document['\u0063\u0072\u0065\u0061\u0074\u0065\u0045\u006C\u0065\u006D\u0065\u006E\u0074']("div");
+  _0x5fc6a = (750325 ^ 750332) + (764613 ^ 764612);
+  _0x3c2g['\u0063\u006C\u0061\u0073\u0073\u004E\u0061\u006D\u0065'] = `toast toast-${type}`;
+  _0x3c2g['\u0069\u006E\u006E\u0065\u0072\u0048\u0054\u004D\u004C'] = `
+    <span class="toast-icon">${_0xb47b[type] || "\u2139\uFE0F"}</span>
+    <span class="toast-msg">${msg}</span>
+    <button class="toast-close" onclick="this.parentElement.remove()">✕</button>
+    <div class="toast-progress" style="animation-duration: ${durationMs}ms"></div>
+  `;
+  _0x06df['\u0061\u0070\u0070\u0065\u006E\u0064\u0043\u0068\u0069\u006C\u0064'](_0x3c2g);
+  setTimeout(() => {
+    _0x3c2g['\u0063\u006C\u0061\u0073\u0073\u004C\u0069\u0073\u0074']['\u0061\u0064\u0064']("removing");
+    setTimeout(() => _0x3c2g['\u0072\u0065\u006D\u006F\u0076\u0065'](), 785930 ^ 786190);
+  }, durationMs);
+}
+let _0x5f2a;
+const OFFLINE_TIMEOUT_MS = 580235 ^ 589211;
+_0x5f2a = 553568 ^ 553571;
+let currentEnteredPin = "";
+let _0xccedfd;
+let remotePin = null;
+_0xccedfd = 329004 ^ 328997;
+let isDeviceOnline = false;
+let isConfigLoaded = false;
+let _0x6aba;
+let currentTempMode = "high";
+_0x6aba = (800688 ^ 800697) + (923124 ^ 923125);
+let currentTempLimit = 582425 ^ 582457;
+let deviceIp = AP_FALLBACK_IP;
+var _0xe5de9c = (946909 ^ 946910) + (826174 ^ 826171);
+let lastSeenTs = 311081 ^ 311081;
+_0xe5de9c = 773262 ^ 773262;
+let isNotifyEnabled = !![];
+var _0xb8adaa = (216937 ^ 216943) + (552198 ^ 552198);
+let webhookUrlVal = "";
+_0xb8adaa = (467078 ^ 467073) + (534142 ^ 534135);
+function getEsp32SyncUrl() {
+  const _0x3ge = window['\u006C\u006F\u0063\u0061\u0074\u0069\u006F\u006E']['\u0068\u006F\u0073\u0074\u006E\u0061\u006D\u0065'];
+  if (_0x3ge === AP_FALLBACK_IP) {
+    return `http://${AP_FALLBACK_IP}/api/sync`;
+  }
+  const _0x2e2 = deviceIp || AP_FALLBACK_IP;
+  return `http://${_0x2e2}/api/sync`;
+}
+async function sendSyncPayload(payloadData) {
+  const _0x991f = getEsp32SyncUrl();
+  const _0x3f438e = await fetch(_0x991f, {
+    '\u006D\u0065\u0074\u0068\u006F\u0064': "POST",
+    "headers": {
+      "\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065": "\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E"
+    },
+    '\u0062\u006F\u0064\u0079': JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](payloadData)
+  });
+  let _0x7567eb;
+  let _0xc7gc = {};
+  _0x7567eb = (853490 ^ 853493) + (220194 ^ 220199);
+  try {
+    _0xc7gc = await _0x3f438e['\u006A\u0073\u006F\u006E']();
+  } catch (_) {
+    _0xc7gc = {};
+  }
+  if (!_0x3f438e['\u006F\u006B']) {
+    throw new Error(_0xc7gc['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'] || `HTTP ${_0x3f438e['\u0073\u0074\u0061\u0074\u0075\u0073']}`);
+  }
+  return _0xc7gc;
+}
+function showOfflineOverlay(subtitle) {
+  var _0x_0x96a = (641276 ^ 641268) + (199686 ^ 199695);
+  const _0x41cbfd = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u006F\u0066\u0066\u006C\u0069\u006E\u0065\u002D\u0073\u0063\u0072\u0065\u0065\u006E");
+  _0x_0x96a = 865821 ^ 865818;
+  var _0xa4d3df = (744712 ^ 744719) + (243750 ^ 243748);
+  const _0xb1d9f = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("offline-subtitle");
+  _0xa4d3df = 743671 ^ 743670;
+  if (subtitle && _0xb1d9f) _0xb1d9f['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = subtitle;
+  _0x41cbfd['\u0073\u0074\u0079\u006C\u0065']['\u0064\u0069\u0073\u0070\u006C\u0061\u0079'] = "\u0066\u006C\u0065\u0078";
+  isDeviceOnline = false;
+}
+function hideOfflineOverlay() {
+  document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("offline-screen")['\u0073\u0074\u0079\u006C\u0065']['\u0064\u0069\u0073\u0070\u006C\u0061\u0079'] = "none";
+}
+function applyHeartbeatState() {
+  var _0x1f_0x2fb = (509715 ^ 509719) + (856343 ^ 856336);
+  const _0xf4c = !lastSeenTs || Date['\u006E\u006F\u0077']() - lastSeenTs > OFFLINE_TIMEOUT_MS;
+  _0x1f_0x2fb = (567663 ^ 567662) + (310934 ^ 310932);
+  if (_0xf4c) {
+    showOfflineOverlay("ไม่พบสัญญาณจาก ESP32 เกิน 10 วินาที กรุณาตรวจสอบอุปกรณ์ หรือกดปุ่ม BOOT ค้างไว้ 3 วินาที");
+    return;
+  }
+  isDeviceOnline = !![];
+  hideOfflineOverlay();
+}
+setInterval(applyHeartbeatState, 345787 ^ 345427);
+db['\u0072\u0065\u0066']("\u0073\u0079\u0073\u0074\u0065\u006D")['\u006F\u006E']("value", snapshot => {
+  const data = snapshot['\u0076\u0061\u006C']();
+  if (data && data['\u0070\u0069\u006E\u005F\u0063\u006F\u0064\u0065']) {
+    remotePin = data['\u0070\u0069\u006E\u005F\u0063\u006F\u0064\u0065']['\u0074\u006F\u0053\u0074\u0072\u0069\u006E\u0067']();
+  }
+});
+db['\u0072\u0065\u0066']("\u0063\u006F\u006E\u0066\u0069\u0067")['\u006F\u006E']("\u0076\u0061\u006C\u0075\u0065", snapshot => {
+  var _0x2e_0xfe6 = (504303 ^ 504302) + (802062 ^ 802059);
+  const data = snapshot['\u0076\u0061\u006C']();
+  _0x2e_0xfe6 = (162249 ^ 162241) + (868526 ^ 868523);
+  if (!data) return;
+  if (data['\u0074\u0065\u006D\u0070\u005F\u006C\u0069\u006D\u0069\u0074'] !== undefined) {
+    currentTempLimit = parseFloat(data['\u0074\u0065\u006D\u0070\u005F\u006C\u0069\u006D\u0069\u0074']);
+    document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0074\u0065\u006D\u0070\u002D\u006C\u0069\u006D\u0069\u0074\u002D\u0076\u0061\u006C")['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = currentTempLimit['\u0074\u006F\u0046\u0069\u0078\u0065\u0064'](825985 ^ 825984);
+  }
+  if (data['\u0074\u0065\u006D\u0070\u005F\u006D\u006F\u0064\u0065']) {
+    currentTempMode = data['\u0074\u0065\u006D\u0070\u005F\u006D\u006F\u0064\u0065'];
+    document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("temp-mode-symbol")['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = currentTempMode === "\u0068\u0069\u0067\u0068" ? "\u003E" : "\u003C";
+  }
+  if (data['\u006C\u0069\u0067\u0068\u0074\u005F\u006D\u0073\u0067']) {
+    document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("light-msg-val")['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = data['\u006C\u0069\u0067\u0068\u0074\u005F\u006D\u0073\u0067'];
+  }
+  if (data['\u0077\u0065\u0062\u0068\u006F\u006F\u006B\u005F\u0075\u0072\u006C'] !== undefined) {
+    webhookUrlVal = data['\u0077\u0065\u0062\u0068\u006F\u006F\u006B\u005F\u0075\u0072\u006C'];
+  }
+  if (data['\u006E\u006F\u0074\u0069\u0066\u0079\u005F\u0065\u006E\u0061\u0062\u006C\u0065\u0064'] !== undefined) {
+    isNotifyEnabled = data['\u006E\u006F\u0074\u0069\u0066\u0079\u005F\u0065\u006E\u0061\u0062\u006C\u0065\u0064'];
+    var _0x9ag = (197095 ^ 197102) + (533036 ^ 533029);
+    const toggleEl = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u006E\u006F\u0074\u0069\u0066\u0079\u002D\u0074\u006F\u0067\u0067\u006C\u0065");
+    _0x9ag = '\u0069\u0066\u0068\u006D\u0064\u0069';
+    if (toggleEl) toggleEl['\u0063\u0068\u0065\u0063\u006B\u0065\u0064'] = isNotifyEnabled;
+    updateNotifyStatusText();
+  }
+  if (!isConfigLoaded) {
+    if (data['\u0077\u0065\u0062\u0068\u006F\u006F\u006B\u005F\u0075\u0072\u006C']) document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("webhook_url")['\u0076\u0061\u006C\u0075\u0065'] = data['\u0077\u0065\u0062\u0068\u006F\u006F\u006B\u005F\u0075\u0072\u006C'];
+    if (data['\u0074\u0065\u006D\u0070\u005F\u006D\u006F\u0064\u0065']) document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0074\u0065\u006D\u0070\u005F\u006D\u006F\u0064\u0065")['\u0076\u0061\u006C\u0075\u0065'] = data['\u0074\u0065\u006D\u0070\u005F\u006D\u006F\u0064\u0065'];
+    if (data['\u0074\u0065\u006D\u0070\u005F\u006C\u0069\u006D\u0069\u0074']) document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0074\u0065\u006D\u0070\u005F\u006C\u0069\u006D\u0069\u0074")['\u0076\u0061\u006C\u0075\u0065'] = data['\u0074\u0065\u006D\u0070\u005F\u006C\u0069\u006D\u0069\u0074'];
+    if (data['\u0074\u0065\u006D\u0070\u005F\u006D\u0073\u0067']) document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("temp_msg")['\u0076\u0061\u006C\u0075\u0065'] = data['\u0074\u0065\u006D\u0070\u005F\u006D\u0073\u0067'];
+    if (data['\u006C\u0069\u0067\u0068\u0074\u005F\u006D\u0073\u0067']) document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u006C\u0069\u0067\u0068\u0074\u005F\u006D\u0073\u0067")['\u0076\u0061\u006C\u0075\u0065'] = data['\u006C\u0069\u0067\u0068\u0074\u005F\u006D\u0073\u0067'];
+    isConfigLoaded = !![];
+  }
+});
+db['\u0072\u0065\u0066']("telemetry")['\u006F\u006E']("\u0076\u0061\u006C\u0075\u0065", snapshot => {
+  var _0xdc3f3f = (240188 ^ 240185) + (388867 ^ 388868);
+  const data = snapshot['\u0076\u0061\u006C']();
+  _0xdc3f3f = (660299 ^ 660297) + (393996 ^ 393996);
+  if (!data) {
+    lastSeenTs = 419161 ^ 419161;
+    applyHeartbeatState();
+    return;
+  }
+  if (typeof data['\u006C\u0061\u0073\u0074\u005F\u0073\u0065\u0065\u006E'] === "\u006E\u0075\u006D\u0062\u0065\u0072") {
+    lastSeenTs = data['\u006C\u0061\u0073\u0074\u005F\u0073\u0065\u0065\u006E'];
+  }
+  applyHeartbeatState();
+  if (data['\u0074\u0065\u006D\u0070'] !== undefined) {
+    var _0xde4eb = (736972 ^ 736971) + (665238 ^ 665235);
+    const tempVal = parseFloat(data['\u0074\u0065\u006D\u0070'])['\u0074\u006F\u0046\u0069\u0078\u0065\u0064'](578033 ^ 578032);
+    _0xde4eb = "klfldo";
+    const tempEl = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0074\u0065\u006D\u0070\u002D\u0064\u0069\u0073\u0070\u006C\u0061\u0079");
+    tempEl['\u0069\u006E\u006E\u0065\u0072\u0048\u0054\u004D\u004C'] = `${tempVal} <span class="unit">°C</span>`;
+    let _0xg_0xfe9;
+    const isAlert = currentTempMode === "high" && parseFloat(tempVal) > currentTempLimit || currentTempMode === "low" && parseFloat(tempVal) < currentTempLimit;
+    _0xg_0xfe9 = (669792 ^ 669793) + (968369 ^ 968375);
+    tempEl['\u0073\u0074\u0079\u006C\u0065']['\u0063\u006F\u006C\u006F\u0072'] = isAlert ? "\u0076\u0061\u0072\u0028\u002D\u002D\u0061\u0063\u0063\u0065\u006E\u0074\u002D\u0064\u0061\u006E\u0067\u0065\u0072\u0029" : "var(--accent-primary)";
+  }
+  const lightContainer = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u006C\u0069\u0067\u0068\u0074\u002D\u0062\u0061\u0064\u0067\u0065\u002D\u0063\u006F\u006E\u0074\u0061\u0069\u006E\u0065\u0072");
+  if (data['\u006C\u0069\u0067\u0068\u0074'] === !![] || data['\u006C\u0069\u0067\u0068\u0074'] === "\u0074\u0072\u0075\u0065") {
+    lightContainer['\u0069\u006E\u006E\u0065\u0072\u0048\u0054\u004D\u004C'] = `<span class="badge badge-success"><span class="badge-dot"></span> ตรวจพบแสง</span>`;
+  } else {
+    lightContainer['\u0069\u006E\u006E\u0065\u0072\u0048\u0054\u004D\u004C'] = `<span class="badge badge-danger"><span class="badge-dot"></span> มืด / ไม่พบแสง</span>`;
+  }
+  var _0xa8g = (495590 ^ 495591) + (168450 ^ 168459);
+  const online = isDeviceOnline;
+  _0xa8g = (363967 ^ 363966) + (232088 ^ 232090);
+  document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("net-badge-container")['\u0069\u006E\u006E\u0065\u0072\u0048\u0054\u004D\u004C'] = online ? `<span class="badge badge-success" style="padding: 2px 8px; font-size: 0.75rem;"><span class="badge-dot"></span> เชื่อมต่อแล้ว</span>` : `<span class="badge badge-danger" style="padding: 2px 8px; font-size: 0.75rem;"><span class="badge-dot"></span> ออฟไลน์</span>`;
+  document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0077\u0065\u0062\u0068\u006F\u006F\u006B\u002D\u0062\u0061\u0064\u0067\u0065\u002D\u0063\u006F\u006E\u0074\u0061\u0069\u006E\u0065\u0072")['\u0069\u006E\u006E\u0065\u0072\u0048\u0054\u004D\u004C'] = online ? `<span class="badge badge-success" style="padding: 2px 8px; font-size: 0.75rem;"><span class="badge-dot"></span> พร้อมส่ง</span>` : `<span class="badge badge-warning" style="padding: 2px 8px; font-size: 0.75rem;"><span class="badge-dot"></span> ออฟไลน์</span>`;
+  if (data['\u0077\u0069\u0066\u0069\u005F\u006D\u006F\u0064\u0065']) document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("wifi-mode-val")['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = data['\u0077\u0069\u0066\u0069\u005F\u006D\u006F\u0064\u0065'];
+  if (data['\u0069\u0070']) {
+    deviceIp = data['\u0069\u0070'];
+    document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("ip-val")['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = data['\u0069\u0070'];
+  }
+});
+function pressNum(num) {
+  if (currentEnteredPin['\u006C\u0065\u006E\u0067\u0074\u0068'] < (966326 ^ 966320)) {
+    currentEnteredPin += num;
+    updatePinDots();
+  }
+  if (currentEnteredPin['\u006C\u0065\u006E\u0067\u0074\u0068'] === (932480 ^ 932486)) {
+    setTimeout(verifyPin, 605178 ^ 605036);
+  }
+}
+function delNum() {
+  currentEnteredPin = currentEnteredPin['\u0073\u006C\u0069\u0063\u0065'](858433 ^ 858433, -(875722 ^ 875723));
+  updatePinDots();
+}
+function clearPin() {
+  currentEnteredPin = "";
+  updatePinDots();
+}
+function updatePinDots() {
+  let _0x78d53b;
+  const _0x51b0e = document['\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006C\u0065\u0063\u0074\u006F\u0072\u0041\u006C\u006C']("\u0023\u0070\u0069\u006E\u002D\u0064\u006F\u0074\u0073\u0020\u0073\u0070\u0061\u006E");
+  _0x78d53b = "onhogn";
+  _0x51b0e['\u0066\u006F\u0072\u0045\u0061\u0063\u0068']((dot, idx) => {
+    if (idx < currentEnteredPin['\u006C\u0065\u006E\u0067\u0074\u0068']) dot['\u0063\u006C\u0061\u0073\u0073\u004C\u0069\u0073\u0074']['\u0061\u0064\u0064']("filled");else dot['\u0063\u006C\u0061\u0073\u0073\u004C\u0069\u0073\u0074']['\u0072\u0065\u006D\u006F\u0076\u0065']("filled");
+  });
+}
+function verifyPin() {
+  var _0x4f1be = (726716 ^ 726718) + (881207 ^ 881200);
+  const _0x97811e = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("pin-error-msg");
+  _0x4f1be = 838986 ^ 838979;
+  if (!isDeviceOnline || !remotePin) {
+    _0x97811e['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = "\u26A0\uFE0F\u0020\u0E44\u0E21\u0E48\u0E1E\u0E1A\u0E01\u0E32\u0E23\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E21\u0E15\u0E48\u0E2D\u0E01\u0E31\u0E1A\u0020\u0045\u0053\u0050\u0033\u0032\u0020\u0E01\u0E23\u0E38\u0E13\u0E32\u0E44\u0E1B\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0021";
+    _0x97811e['\u0073\u0074\u0079\u006C\u0065']['\u0064\u0069\u0073\u0070\u006C\u0061\u0079'] = "block";
+    clearPin();
+    return;
+  }
+  var _0x877d7c = (890095 ^ 890091) + (271721 ^ 271727);
+  const _0xfebec = CryptoJS['\u0053\u0048\u0041\u0032\u0035\u0036'](currentEnteredPin)['\u0074\u006F\u0053\u0074\u0072\u0069\u006E\u0067']();
+  _0x877d7c = '\u006A\u0066\u006C\u0063\u0065\u006B';
+  if (_0xfebec === remotePin) {
+    document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0070\u0069\u006E\u002D\u006C\u006F\u0063\u006B\u002D\u0073\u0063\u0072\u0065\u0065\u006E")['\u0073\u0074\u0079\u006C\u0065']['\u0064\u0069\u0073\u0070\u006C\u0061\u0079'] = "none";
+    _0x97811e['\u0073\u0074\u0079\u006C\u0065']['\u0064\u0069\u0073\u0070\u006C\u0061\u0079'] = "none";
+  } else {
+    _0x97811e['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = "❌ รหัสผ่านไม่ถูกต้อง!";
+    _0x97811e['\u0073\u0074\u0079\u006C\u0065']['\u0064\u0069\u0073\u0070\u006C\u0061\u0079'] = "\u0062\u006C\u006F\u0063\u006B";
+    clearPin();
+  }
+}
+async function handlePinChange(e) {
+  e['\u0070\u0072\u0065\u0076\u0065\u006E\u0074\u0044\u0065\u0066\u0061\u0075\u006C\u0074']();
+  let _0xe3fc;
+  const _0x66ddg = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u006F\u006C\u0064\u005F\u0070\u0069\u006E")['\u0076\u0061\u006C\u0075\u0065'];
+  _0xe3fc = '\u006B\u0066\u0066\u0061\u0062\u006D';
+  const _0x36b9g = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u006E\u0065\u0077\u005F\u0070\u0069\u006E")['\u0076\u0061\u006C\u0075\u0065'];
+  const _0x52fc3c = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0063\u006F\u006E\u0066\u0069\u0072\u006D\u005F\u0070\u0069\u006E")['\u0076\u0061\u006C\u0075\u0065'];
+  if (!isDeviceOnline || !remotePin) {
+    showToast("\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E44\u0E14\u0E49\u0020\u0E40\u0E19\u0E37\u0E48\u0E2D\u0E07\u0E08\u0E32\u0E01\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E21\u0E15\u0E48\u0E2D\u0E01\u0E31\u0E1A\u0020\u0045\u0053\u0050\u0033\u0032", "\u0065\u0072\u0072\u006F\u0072");
+    return;
+  }
+  const _0x89ddcb = CryptoJS['\u0053\u0048\u0041\u0032\u0035\u0036'](_0x66ddg)['\u0074\u006F\u0053\u0074\u0072\u0069\u006E\u0067']();
+  if (_0x89ddcb !== remotePin) {
+    showToast("\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E40\u0E14\u0E34\u0E21\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07\u0021", "\u0065\u0072\u0072\u006F\u0072");
+    return;
+  }
+  if (_0x36b9g !== _0x52fc3c) {
+    showToast("รหัสผ่านใหม่ทั้งสองช่องไม่ตรงกัน!", "error");
+    return;
+  }
+  if (_0x36b9g['\u006C\u0065\u006E\u0067\u0074\u0068'] !== (318940 ^ 318938) || isNaN(_0x36b9g)) {
+    showToast("\u0E01\u0E23\u0E38\u0E13\u0E32\u0E01\u0E23\u0E2D\u0E01\u0E15\u0E31\u0E27\u0E40\u0E25\u0E02\u0020\u0036\u0020\u0E2B\u0E25\u0E31\u0E01\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19\u0021", "\u0065\u0072\u0072\u006F\u0072");
+    return;
+  }
+  try {
+    var _0xc6440c = (673791 ^ 673782) + (765683 ^ 765687);
+    const _0x2dd7gc = CryptoJS['\u0053\u0048\u0041\u0032\u0035\u0036'](_0x36b9g)['\u0074\u006F\u0053\u0074\u0072\u0069\u006E\u0067']();
+    _0xc6440c = (166709 ^ 166717) + (586997 ^ 586995);
+    await db['\u0072\u0065\u0066']("\u0073\u0079\u0073\u0074\u0065\u006D")['\u0075\u0070\u0064\u0061\u0074\u0065']({
+      "pin_code": _0x2dd7gc
+    });
+    showToast("\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0020\u0050\u0049\u004E\u0020\u0E40\u0E23\u0E35\u0E22\u0E1A\u0E23\u0E49\u0E2D\u0E22\u0E41\u0E25\u0E49\u0E27\u0021", "success");
+    closeModal();
+    e['\u0074\u0061\u0072\u0067\u0065\u0074']['\u0072\u0065\u0073\u0065\u0074']();
+  } catch (err) {
+    showToast("\u0E40\u0E01\u0E34\u0E14\u0E02\u0E49\u0E2D\u0E1C\u0E34\u0E14\u0E1E\u0E25\u0E32\u0E14\u003A\u0020" + err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'], "error");
+  }
+}
+async function testWebhook() {
+  const _0xd87c = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0077\u0065\u0062\u0068\u006F\u006F\u006B\u005F\u0075\u0072\u006C")['\u0076\u0061\u006C\u0075\u0065']['\u0074\u0072\u0069\u006D']();
+  if (!_0xd87c) {
+    showToast("กรุณากรอก Webhook URL ก่อนกดทดสอบ!", "\u0077\u0061\u0072\u006E\u0069\u006E\u0067");
+    return;
+  }
+  const _0x578f = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0062\u0074\u006E\u002D\u0074\u0065\u0073\u0074\u002D\u0077\u0065\u0062\u0068\u006F\u006F\u006B");
+  _0x578f['\u0064\u0069\u0073\u0061\u0062\u006C\u0065\u0064'] = !![];
+  _0x578f['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E2A\u0E31\u0E48\u0E07\u0020\u0045\u0053\u0050\u0033\u0032\u0020\u0E2A\u0E48\u0E07\u0E17\u0E14\u0E2A\u0E2D\u0E1A\u002E\u002E\u002E";
+  try {
+    let _0x32dfe;
+    const _0x24f = {
+      "config": {
+        '\u0077\u0065\u0062\u0068\u006F\u006F\u006B\u005F\u0075\u0072\u006C': _0xd87c,
+        '\u0074\u0065\u006D\u0070\u005F\u006D\u006F\u0064\u0065': document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0074\u0065\u006D\u0070\u005F\u006D\u006F\u0064\u0065")['\u0076\u0061\u006C\u0075\u0065'],
+        '\u0074\u0065\u006D\u0070\u005F\u006C\u0069\u006D\u0069\u0074': parseFloat(document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("temp_limit")['\u0076\u0061\u006C\u0075\u0065']) || 596646 ^ 596664,
+        "temp_msg": document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("temp_msg")['\u0076\u0061\u006C\u0075\u0065'],
+        '\u006C\u0069\u0067\u0068\u0074\u005F\u006D\u0073\u0067': document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("light_msg")['\u0076\u0061\u006C\u0075\u0065']
+      },
+      '\u0063\u006F\u006D\u006D\u0061\u006E\u0064': {
+        '\u0074\u0065\u0073\u0074\u005F\u0077\u0065\u0062\u0068\u006F\u006F\u006B': !![]
+      }
+    };
+    _0x32dfe = 754174 ^ 754173;
+    await sendSyncPayload(_0x24f);
+    showToast("\u0E2A\u0E48\u0E07\u0020\u0057\u0065\u0062\u0068\u006F\u006F\u006B\u0020\u0E17\u0E14\u0E2A\u0E2D\u0E1A\u0E44\u0E1B\u0E22\u0E31\u0E07\u0020\u0045\u0053\u0050\u0033\u0032\u0020\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08\u0E41\u0E25\u0E49\u0E27", "success");
+  } catch (err) {
+    showToast("ทดสอบไม่สำเร็จ: " + err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'], "error");
+  } finally {
+    _0x578f['\u0064\u0069\u0073\u0061\u0062\u006C\u0065\u0064'] = false;
+    _0x578f['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = "🧪 ทดสอบส่ง Webhook";
+  }
+}
+async function handleWebhookSubmit(e) {
+  e['\u0070\u0072\u0065\u0076\u0065\u006E\u0074\u0044\u0065\u0066\u0061\u0075\u006C\u0074']();
+  const _0x2_0x13a = {
+    '\u0077\u0065\u0062\u0068\u006F\u006F\u006B\u005F\u0075\u0072\u006C': document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("webhook_url")['\u0076\u0061\u006C\u0075\u0065'],
+    "temp_mode": document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("temp_mode")['\u0076\u0061\u006C\u0075\u0065'],
+    '\u0074\u0065\u006D\u0070\u005F\u006C\u0069\u006D\u0069\u0074': parseFloat(document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0074\u0065\u006D\u0070\u005F\u006C\u0069\u006D\u0069\u0074")['\u0076\u0061\u006C\u0075\u0065']),
+    '\u0074\u0065\u006D\u0070\u005F\u006D\u0073\u0067': document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0074\u0065\u006D\u0070\u005F\u006D\u0073\u0067")['\u0076\u0061\u006C\u0075\u0065'],
+    '\u006C\u0069\u0067\u0068\u0074\u005F\u006D\u0073\u0067': document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("light_msg")['\u0076\u0061\u006C\u0075\u0065']
+  };
+  try {
+    await db['\u0072\u0065\u0066']("config")['\u0075\u0070\u0064\u0061\u0074\u0065'](_0x2_0x13a);
+    sendSyncPayload({
+      "config": _0x2_0x13a
+    })['\u0063\u0061\u0074\u0063\u0068'](() => {});
+    currentTempLimit = _0x2_0x13a['\u0074\u0065\u006D\u0070\u005F\u006C\u0069\u006D\u0069\u0074'];
+    currentTempMode = _0x2_0x13a['\u0074\u0065\u006D\u0070\u005F\u006D\u006F\u0064\u0065'];
+    webhookUrlVal = _0x2_0x13a['\u0077\u0065\u0062\u0068\u006F\u006F\u006B\u005F\u0075\u0072\u006C'];
+    document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("temp-limit-val")['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = currentTempLimit['\u0074\u006F\u0046\u0069\u0078\u0065\u0064'](809307 ^ 809306);
+    document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0074\u0065\u006D\u0070\u002D\u006D\u006F\u0064\u0065\u002D\u0073\u0079\u006D\u0062\u006F\u006C")['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = currentTempMode === "\u0068\u0069\u0067\u0068" ? "\u003E" : "\u003C";
+    document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u006C\u0069\u0067\u0068\u0074\u002D\u006D\u0073\u0067\u002D\u0076\u0061\u006C")['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = _0x2_0x13a['\u006C\u0069\u0067\u0068\u0074\u005F\u006D\u0073\u0067'];
+    showToast("บันทึกตั้งค่า Webhook เรียบร้อยแล้ว!", "\u0073\u0075\u0063\u0063\u0065\u0073\u0073");
+    closeModal();
+  } catch (err) {
+    showToast("\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E44\u0E21\u0E48\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08\u003A\u0020" + err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'], "error");
+  }
+}
+async function handleNotifyToggle(el) {
+  let _0x96656c;
+  const _0x898b = el['\u0063\u0068\u0065\u0063\u006B\u0065\u0064'];
+  _0x96656c = 797545 ^ 797548;
+  const _0x5eg8c = (document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("webhook_url")?.value || webhookUrlVal)['\u0074\u0072\u0069\u006D']();
+  if (_0x898b && (!_0x5eg8c || _0x5eg8c['\u006C\u0065\u006E\u0067\u0074\u0068'] === (500571 ^ 500571))) {
+    el['\u0063\u0068\u0065\u0063\u006B\u0065\u0064'] = false;
+    showToast("\u0E01\u0E23\u0E38\u0E13\u0E32\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32\u0020\u0057\u0065\u0062\u0068\u006F\u006F\u006B\u0020\u0055\u0052\u004C\u0020\u0E43\u0E19\u0E40\u0E21\u0E19\u0E39\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32\u0E01\u0E48\u0E2D\u0E19\u0E40\u0E1B\u0E34\u0E14\u0E01\u0E32\u0E23\u0E41\u0E08\u0E49\u0E07\u0E40\u0E15\u0E37\u0E2D\u0E19", "\u0077\u0061\u0072\u006E\u0069\u006E\u0067");
+    openModal("\u006D\u006F\u0064\u0061\u006C\u002D\u0077\u0065\u0062\u0068\u006F\u006F\u006B", "\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32\u0020\u0057\u0065\u0062\u0068\u006F\u006F\u006B\u0020\u0026\u0020\u0E41\u0E08\u0E49\u0E07\u0E40\u0E15\u0E37\u0E2D\u0E19");
+    return;
+  }
+  try {
+    await sendSyncPayload({
+      '\u0063\u006F\u006E\u0066\u0069\u0067': {
+        '\u006E\u006F\u0074\u0069\u0066\u0079\u005F\u0065\u006E\u0061\u0062\u006C\u0065\u0064': _0x898b
+      }
+    });
+    isNotifyEnabled = _0x898b;
+    updateNotifyStatusText();
+  } catch (err) {
+    el['\u0063\u0068\u0065\u0063\u006B\u0065\u0064'] = !_0x898b;
+    showToast("เกิดข้อผิดพลาด: " + err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'], "error");
+  }
+}
+function updateNotifyStatusText() {
+  const _0xbb2b9b = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("notify-status-text");
+  if (!_0xbb2b9b) return;
+  if (isNotifyEnabled) {
+    _0xbb2b9b['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = "\uD83D\uDFE2\u0020\u0E40\u0E1B\u0E34\u0E14\u0E01\u0E32\u0E23\u0E41\u0E08\u0E49\u0E07\u0E40\u0E15\u0E37\u0E2D\u0E19\u0E2D\u0E31\u0E15\u0E42\u0E19\u0E21\u0E31\u0E15\u0E34\u0020\u0028\u0044\u0069\u0073\u0063\u006F\u0072\u0064\u0020\u002F\u0020\u0057\u0065\u0062\u0068\u006F\u006F\u006B\u0029";
+    _0xbb2b9b['\u0073\u0074\u0079\u006C\u0065']['\u0063\u006F\u006C\u006F\u0072'] = "\u0076\u0061\u0072\u0028\u002D\u002D\u0061\u0063\u0063\u0065\u006E\u0074\u002D\u0073\u0075\u0063\u0063\u0065\u0073\u0073\u0029";
+  } else {
+    _0xbb2b9b['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = "🔴 ปิดการแจ้งเตือนอัตโนมัติชั่วคราว";
+    _0xbb2b9b['\u0073\u0074\u0079\u006C\u0065']['\u0063\u006F\u006C\u006F\u0072'] = "var(--text-sub)";
+  }
+}
+function switchTab(tabId, el) {
+  document['\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006C\u0065\u0063\u0074\u006F\u0072\u0041\u006C\u006C'](".tab-content")['\u0066\u006F\u0072\u0045\u0061\u0063\u0068'](tab => tab['\u0063\u006C\u0061\u0073\u0073\u004C\u0069\u0073\u0074']['\u0072\u0065\u006D\u006F\u0076\u0065']("\u0061\u0063\u0074\u0069\u0076\u0065"));
+  document['\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006C\u0065\u0063\u0074\u006F\u0072\u0041\u006C\u006C'](".nav-item")['\u0066\u006F\u0072\u0045\u0061\u0063\u0068'](item => item['\u0063\u006C\u0061\u0073\u0073\u004C\u0069\u0073\u0074']['\u0072\u0065\u006D\u006F\u0076\u0065']("\u0061\u0063\u0074\u0069\u0076\u0065"));
+  document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("tab-" + tabId)['\u0063\u006C\u0061\u0073\u0073\u004C\u0069\u0073\u0074']['\u0061\u0064\u0064']("active");
+  if (el) el['\u0063\u006C\u0061\u0073\u0073\u004C\u0069\u0073\u0074']['\u0061\u0064\u0064']("active");
+}
+function openModal(sectionId, title) {
+  document['\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006C\u0065\u0063\u0074\u006F\u0072\u0041\u006C\u006C'](".modal-section")['\u0066\u006F\u0072\u0045\u0061\u0063\u0068'](sec => sec['\u0073\u0074\u0079\u006C\u0065']['\u0064\u0069\u0073\u0070\u006C\u0061\u0079'] = "\u006E\u006F\u006E\u0065");
+  const _0x3d473e = document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064'](sectionId);
+  if (_0x3d473e) _0x3d473e['\u0073\u0074\u0079\u006C\u0065']['\u0064\u0069\u0073\u0070\u006C\u0061\u0079'] = "\u0062\u006C\u006F\u0063\u006B";
+  document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("modal-title")['\u0069\u006E\u006E\u0065\u0072\u0054\u0065\u0078\u0074'] = title;
+  document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("fullscreen-modal")['\u0063\u006C\u0061\u0073\u0073\u004C\u0069\u0073\u0074']['\u0061\u0064\u0064']("active");
+}
+function closeModal() {
+  document['\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064']("\u0066\u0075\u006C\u006C\u0073\u0063\u0072\u0065\u0065\u006E\u002D\u006D\u006F\u0064\u0061\u006C")['\u0063\u006C\u0061\u0073\u0073\u004C\u0069\u0073\u0074']['\u0072\u0065\u006D\u006F\u0076\u0065']("active");
+}
